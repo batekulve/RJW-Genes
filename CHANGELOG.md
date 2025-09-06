@@ -1,3 +1,89 @@
+# 2.6.0 (18-08-2025)
+(Commit by @Telanda-DDS)
+
+**Changes**
+- Removed Animal Gene Inheritance code from Core RJW_Genes and moved it into it's own mod.
+- Replaced all references to GenericAnus with Anus in Genital type Genes.
+
+# 2.5.7 (18-08-2025)
+(Commit by @Telanda-DDS)
+
+**Fixes**
+- Fixed fertile anus not correctly detecting if penetrating partner had a penis capable of impregnation.
+
+
+# 2.5.5 (25-07-2025)
+(Commit by @Telanda-DDS)
+
+**Changes**
+- Support for RJW RC-5
+- Updated Elastic gene to also increase speed at which stretched parts return to normal under ElToro's stretching Mod.
+
+
+**Fixes**
+- Fixed Load bug with VRE-Genie Sexperience interaction.
+- Fixed incorrect consciousness value on infectious sex change Gene.
+- Fixed ElToro Stretching support causing an error if not present.
+- Fixed Typo in Disease ThoughtDef
+
+
+
+# 2.5.3 (19-07-2025)
+(Commit by @Telanda-DDS)
+
+**Changes**
+- Re-factored directory paths & common directories between versions, decreasing mod Size.
+- Added Elasticity Support for Eltoro's Streching mod. (Prevents Injury Hediffs from being created, Pawn still gets Stretched.)
+- Added Elasticity support to Cumpilation (Adds counter HeDiff that negates effects.)
+
+**Fixes**
+- Fixed Mating Call Ability.
+- Fixed incorrect mod Call for Genie Sex-curiosity gene.
+- Added additional Null check to Genes for when Rimworld tries to created statue pawns.
+- Removed Depreciated LicentiaLabs XML files.
+
+
+# 2.5.2 (19-07-2025)
+(Commit by @Telanda-DDS)
+
+**Fixes**
+- Fixed "Big and Small - Heaven and Hell" XML patch being applied incorrectly, again.
+- Fixed issue that was causing Extra genitals,Anus,breasts being added to pawns when a gene was applied.
+- Removed some code duplication in the Gender specific Genes, I cannot see any situations where this code was required, but but there are some notes in other genes relating to character editor, I'm leaving other genes As they are for now, and will wait to see if it breaks some strange edge case i didn't test for.
+
+
+# 2.5.1 (17-07-2025)
+(Commit by @Telanda-DDS)
+  
+**Changes**
+- RJW-Genes no longer requires Cumpilation, it is now an optional mod.
+  
+  
+**Fixes**
+- Fixed Big & Small Genes XML Patch Error.
+- Removed references to Obsolete RJW Methods.
+  
+  
+**Known Issues**
+- Succubus Tail interactions disabled pending rewrite due to updates to RJW Interactions system.
+- Quirks disabled due to migration of RJW quirks to it's own sub-mod that has not yet been updated to 1.6.
+
+---
+
+# 2.5 (16-07-2025)
+(Commit by @Telanda-DDS)
+**Fixes**
+- Added Rimworld 1.6 Branch and support - Initial Dev Test.
+  
+  
+**Known Issues**
+- Succubus Tail interactions disabled pending rewrite due to updates to RJW Interactions system.
+- Quirks disabled due to migration of RJW quirks to it's own sub-mod that has not yet been updated to 1.6
+  
+  
+
+---
+
 # 2.4.2 (25-11-2024)
 
 **Fixes**:
